@@ -1,0 +1,36 @@
+[
+    {
+        "background": "#F5F5DC",
+        "darkPink": {
+            "hexCode": "#FF1493",
+            "items": ["greeting", "layering"]
+        },
+        "lightPink": {
+            "hexCode": "#f8abeb",
+            "items": ["rectangle"]
+        }
+    },
+    {
+        "background": "#c2ffd2",
+        "darkGreen": {
+            "hexCode": "#187a33",
+            "items": ["greeting", "layering"]
+        },
+        "lightGreen": {
+            "hexCode": "#70ff96",
+            "items": ["rectangle"]
+        }
+    },
+    {
+        "background": "#ebd4ff",
+        "darkPurple": {
+            "hexCode": "#6d2da6",
+            "items": ["greeting", "layering"]
+        },
+        "lightPurple": {
+            "hexCode": "#a874d6",
+            "items": ["rectangle"]
+        }
+    }
+]
+

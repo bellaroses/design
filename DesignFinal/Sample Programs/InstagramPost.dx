@@ -2,135 +2,141 @@ startDesign
 
 template poster = {
     "header": {
-        "designName": "InstaPost",
+        "designName": "ACMInstaPost",
         "designType": "instagram post"
     },
     "elements": {
         "title": {
             "elementType": "text",
-            "text": "Intro to C++",
+            "text": "Data Science 
+ with Python",
             "fontFile": "/Users/isabellaking/CS Coursework/CS420/Design/Fonts/Open_Sans/static/OpenSans-Regular.ttf",
-            "fontSize": "115",
-            "height": "50",
-            "width": "325"
+            "fontSize": "140",
+            "height": "40",
+            "width": "125"
         },
         "time": {
             "elementType": "text",
-            "text": "Senior Graphic Designer",
+            "text": "Wednesday (3/19) from 4pm - 5pm in GMCS 408",
             "fontFile": "/Users/isabellaking/CS Coursework/CS420/Design/Fonts/Open_Sans/static/OpenSans-Regular.ttf",
-            "fontSize": "50",
-            "height": "200",
-            "width": "330"
+            "fontSize": "35",
+            "height": "700",
+            "width": "150"
         },
         "desc": {
             "elementType": "text",
-            "text": "(619) 837-2293",
+            "text": "Join us for a another workshop on data 
+science with Python and Pandas, presented 
+by Everett. No experience necessary!",
             "fontFile": "/Users/isabellaking/CS Coursework/CS420/Design/Fonts/Open_Sans/static/OpenSans-Regular.ttf",
-            "fontSize": "25",
-            "height": "305",
-            "width": "400"
+            "fontSize": "35",
+            "height": "780",
+            "width": "200"
         },
-        "acm": {
-            "elementType": "text",
-            "text": "iking@business.com",
+        "ACM": {
+           "elementType": "text",
+            "text": "Association for 
+Computing Machinery",
             "fontFile": "/Users/isabellaking/CS Coursework/CS420/Design/Fonts/Open_Sans/static/OpenSans-Regular.ttf",
-            "fontSize": "25",
-            "height": "395",
-            "width": "400" 
+            "fontSize": "20",
+            "height": "1010",
+            "width": "100" 
         },
         "rec1": {
             "elementType": "shape",
             "shapeType": "rectangle",
-            "width1": "275",
-            "height1": "50",
-            "width2": "300",
-            "height2": "550"
+            "width1": "0",
+            "height1": "975",
+            "width2": "1080",
+            "height2": "1080"
         },
         "rec2": {
             "elementType": "shape",
             "shapeType": "rectangle",
-            "width1": "275",
-            "height1": "50",
-            "width2": "300",
-            "height2": "550"
-        },
-        "rec3": {
-            "elementType": "shape",
-            "shapeType": "rectangle",
-            "width1": "275",
-            "height1": "50",
-            "width2": "300",
-            "height2": "550"
+            "width1": "0",
+            "height1": "1000",
+            "width2": "1080",
+            "height2": "1080"
         },
         "recRounded": {
             "elementType": "shape",
-            "shapeType": "rectangle",
-            "width1": "275",
-            "height1": "50",
-            "width2": "300",
-            "height2": "550"
+            "shapeType": "rounded rectangle",
+            "width1": "100",
+            "height1": "775",
+            "width2": "980",
+            "height2": "925"
         },
         "sideImage1": {
             "elementType": "image",
-            "file": "/Users/isabellaking/CS Coursework/CS420/Design/Images/BusinessCardImages/email.jpg",
-            "side1": "50",
-            "side2": "50",
-            "width": "325",
-            "height": "300"
+            "file": "/Users/isabellaking/CS Coursework/CS420/Design/Images/InstaPostImages/panda.jpg",
+            "side1": "250",
+            "side2": "250",
+            "width": "100",
+            "height": "400"
         },
         "sideImage2": {
             "elementType": "image",
-            "file": "/Users/isabellaking/CS Coursework/CS420/Design/Images/BusinessCardImages/internet.jpg",
-            "side1": "50",
-            "side2": "50",
-            "width": "325",
-            "height": "390"
+            "file": "/Users/isabellaking/CS Coursework/CS420/Design/Images/InstaPostImages/computer.jpg",
+            "side1": "250",
+            "side2": "250",
+            "width": "750",
+            "height": "400"
         },
         "mainImage": {
             "elementType": "image",
-            "file": "/Users/isabellaking/CS Coursework/CS420/Design/Images/BusinessCardImages/phone.jpg",
-            "side1": "50",
-            "side2": "50",
-            "width": "325",
-            "height": "480"
+            "file": "/Users/isabellaking/CS Coursework/CS420/Design/Images/InstaPostImages/python.jpg",
+            "side1": "250",
+            "side2": "250",
+            "width": "425",
+            "height": "400"
         },
         "acm": {
             "elementType": "image",
-            "file": "/Users/isabellaking/CS Coursework/CS420/Design/Images/BusinessCardImages/mainGraphic.jpg",
-            "side1": "200",
-            "side2": "200",
+            "file": "/Users/isabellaking/CS Coursework/CS420/Design/Images/InstaPostImages/acm.jpg",
+            "side1": "50",
+            "side2": "50",
             "width": "25",
-            "height": "25"
-        }
+            "height": "1015"
+        },
         "sdsu": {
             "elementType": "image",
-            "file": "/Users/isabellaking/CS Coursework/CS420/Design/Images/BusinessCardImages/mainGraphic.jpg",
-            "side1": "200",
-            "side2": "200",
-            "width": "25",
-            "height": "25"
+            "file": "/Users/isabellaking/CS Coursework/CS420/Design/Images/InstaPostImages/sdsu.jpg",
+            "side1": "75",
+            "side2": "75",
+            "width": "975",
+            "height": "1000"
         }
     },
     "layers": {
-        "layer1": ["1", "name", "jobTitle", "email", "phoneNumber", "website", "rectangle", "mainGraphic", "iconEmail", "iconInternet", "iconPhone"]
+        "layer1": ["1", "title", "time", "recRounded", "rec1"],
+        "layer2": ["2", "sideImage1", "sideImage2", "mainImage", "desc", "rec2"],
+        "layer3": ["3", "acm", "ACM", "sdsu"]
     },
     "scheme": {
-        "background": "#49326b",
+        "background": "#0d3a76",
         "white": {
             "hexCode": "#FFFFFF",
-            "items": ["name", "phoneNumber", "website", "email"]
+            "items": ["time"]
         },
-        "pink": {
-            "hexCode": "#f8abeb",
-            "items": ["jobTitle"]
+        "orange": {
+            "hexCode": "#f9943b",
+            "items": ["title"]
         },
-        "darkPink": {
-            "hexCode": "#a359a0",
-            "items": ["rectangle"]
+        "darkBlue": {
+            "hexCode": "#0d3a76",
+            "items": ["desc", "ACM"]
+        },
+        "lightBlue": {
+            "hexCode": "#acdef0",
+            "items": ["rec2", "recRounded"]
+        },
+        "mediumBlue": {
+            "hexCode": "#06a1d0",
+            "items": ["rec1"]
         }
     }
 }
 
-poster.peek()
+poster.toFile(jpg)
 
 endDesign

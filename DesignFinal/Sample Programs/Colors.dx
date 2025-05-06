@@ -1,0 +1,110 @@
+startDesign
+
+template poster = {
+    "header": {
+        "designName": "ACMInstaPost",
+        "designType": "instagram post"
+    },
+    "elements": {
+        "message": {
+            "elementType": "text",
+            "text": "COLORS",
+            "fontFile": "/Users/isabellaking/CS Coursework/CS420/Design/Fonts/Open_Sans/static/OpenSans-Regular.ttf",
+            "fontSize": "150",
+            "height": "400",
+            "width": "240"
+        },
+        "rec1": {
+            "elementType": "shape",
+            "shapeType": "rectangle",
+            "width1": "0",
+            "height1": "0",
+            "width2": "800",
+            "height2": "700"
+        },
+        "rec2": {
+            "elementType": "shape",
+            "shapeType": "rectangle",
+            "width1": "300",
+            "height1": "600",
+            "width2": "900",
+            "height2": "1080"
+        },
+        "rec3": {
+            "elementType": "shape",
+            "shapeType": "rectangle",
+            "width1": "200",
+            "height1": "0",
+            "width2": "500",
+            "height2": "300"
+        },
+        "rec4": {
+            "elementType": "shape",
+            "shapeType": "rectangle",
+            "width1": "500",
+            "height1": "400",
+            "width2": "1000",
+            "height2": "900"
+        },
+        "rec5": {
+            "elementType": "shape",
+            "shapeType": "rectangle",
+            "width1": "0",
+            "height1": "650",
+            "width2": "500",
+            "height2": "1080"
+        },
+        "rec6": {
+            "elementType": "shape",
+            "shapeType": "rectangle",
+            "width1": "800",
+            "height1": "0",
+            "width2": "1080",
+            "height2": "1080"
+        }
+    },
+    "layers": {
+        "layer1": ["1", "rec1"],
+        "layer2": ["2", "rec2"],
+        "layer3": ["3", "rec3"],
+        "layer4": ["4", "rec4"],
+        "layer5": ["5", "rec5"],
+        "layer6": ["6", "rec6"],
+        "layer7": ["7", "message"]
+    },
+    "scheme": {
+        "background": "#FFFFFF",
+        "red": {
+            "hexCode": "#FF0000",
+            "items": ["rec1"]
+        },
+        "orange": {
+            "hexCode": "#FFA500",
+            "items": ["rec2"]
+        },
+        "yellow": {
+            "hexCode": "#FFFF00",
+            "items": ["rec3"]
+        },
+        "green": {
+            "hexCode": "#00FF00",
+            "items": ["rec4"]
+        },
+        "blue": {
+            "hexCode": "#0000FF",
+            "items": ["rec5"]
+        },
+        "purple": {
+            "hexCode": "#800080",
+            "items": ["rec6"]
+        },
+        "black": {
+            "hexCode": "#000000",
+            "items": ["message"]
+        }
+    }
+}
+
+poster.peek()
+
+endDesign

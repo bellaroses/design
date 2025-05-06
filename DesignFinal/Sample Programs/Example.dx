@@ -1,0 +1,69 @@
+startDesign
+
+template poster = {
+    "header": {
+        "designName": "ExampleProgram",
+        "designType": "letter paper"
+    },
+    "elements": {
+        "greeting": {
+            "elementType": "text",
+            "text": "Hello, world!",
+            "fontFile": "/Users/isabellaking/CS Coursework/CS420/Design/Fonts/Open_Sans/static/OpenSans-Regular.ttf",
+            "fontSize": "400",
+            "height": "150",
+            "width": "150"
+        },
+        "layering": {
+            "elementType": "text",
+            "text": "You can layer things.",
+            "fontFile": "/Users/isabellaking/CS Coursework/CS420/Design/Fonts/Open_Sans/static/OpenSans-Regular.ttf",
+            "fontSize": "200",
+            "height": "2500",
+            "width": "300"
+        },
+        "rectangle": {
+            "elementType": "shape",
+            "shapeType": "rectangle",
+            "width1": "100",
+            "height1": "2200",
+            "width2": "2450",
+            "height2": "3000"
+        },
+        "image1": {
+            "elementType": "image",
+            "file": "/Users/isabellaking/CS Coursework/CS420/Design/Images/ExampleProgramImages/beautiful-flowers-lotus.webp",
+            "side1": "900",
+            "side2": "900",
+            "width": "100",
+            "height": "1000"
+        },
+        "image2": {
+            "elementType": "image",
+            "file": "/Users/isabellaking/CS Coursework/CS420/Design/Images/ExampleProgramImages/plumeria.webp",
+            "side1": "900",
+            "side2": "900",
+            "width": "1500",
+            "height": "1000"
+        }
+    },
+    "layers": {
+        "layer1": ["1", "greeting", "image1", "image2", "rectangle"],
+        "layer2": ["2", "layering"]
+    },
+    "scheme": {
+        "background": "#F5F5DC",
+        "darkPink": {
+            "hexCode": "#FF1493",
+            "items": ["greeting", "layering"]
+        },
+        "lightPink": {
+            "hexCode": "#f8abeb",
+            "items": ["rectangle"]
+        }
+    }
+}
+
+poster.peek()
+
+endDesign

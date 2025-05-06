@@ -1,0 +1,210 @@
+startDesign
+
+template poster = {
+    "header": {
+        "designName": "FizzBuzz",
+        "designType": "letter paper"
+    },
+    "elements": {
+        "title": {
+            "elementType": "text",
+            "text": "FizzBuzz!",
+            "fontFile": "/Users/isabellaking/CS Coursework/CS420/Design/Fonts/arial/ARIAL.TTF",
+            "fontSize": "400",
+            "height": "150",
+            "width": "150"
+        },
+        "column1": {
+            "elementType": "text",
+            "text": "1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+FizzBuzz
+16
+17
+Fizz
+19
+Buzz",
+            "fontFile": "/Users/isabellaking/CS Coursework/CS420/Design/Fonts/arial/ARIAL.TTF",
+            "fontSize": "70",
+            "height": "1450",
+            "width": "350"
+        },
+        "column2": {
+            "elementType": "text",
+            "text": "Fizz
+22
+23
+Fizz
+Buzz
+26
+Fizz
+28
+29
+FizzBuzz
+31
+32
+Fizz
+34
+Buzz
+Fizz
+37
+38
+Fizz
+Buzz",
+            "fontFile": "/Users/isabellaking/CS Coursework/CS420/Design/Fonts/arial/ARIAL.TTF",
+            "fontSize": "70",
+            "height": "1450",
+            "width": "750"
+        },
+        "column3": {
+            "elementType": "text",
+            "text": "41
+Fizz
+43
+44
+FizzBuzz
+46
+47
+Fizz
+49
+Buzz
+Fizz
+52
+53
+Fizz
+Buzz
+56
+Fizz
+58
+59
+FizzBuzz",
+            "fontFile": "/Users/isabellaking/CS Coursework/CS420/Design/Fonts/arial/ARIAL.TTF",
+            "fontSize": "70",
+            "height": "1450",
+            "width": "1150" 
+        },
+        "column4": {
+            "elementType": "text",
+            "text": "61
+62
+Fizz
+64
+Buzz
+Fizz
+67
+68
+Fizz
+Buzz
+71
+Fizz
+73
+74
+FizzBuzz
+76
+77
+Fizz
+79
+Buzz",
+            "fontFile": "/Users/isabellaking/CS Coursework/CS420/Design/Fonts/arial/ARIAL.TTF",
+            "fontSize": "70",
+            "height": "1450",
+            "width": "1550" 
+        },
+        "column5": {
+            "elementType": "text",
+            "text": "Fizz
+82
+83
+Fizz
+Buzz
+86
+Fizz
+88
+89
+FizzBuzz
+91
+92
+Fizz
+94
+Buzz
+Fizz
+97
+98
+Fizz
+Buzz",
+            "fontFile": "/Users/isabellaking/CS Coursework/CS420/Design/Fonts/arial/ARIAL.TTF",
+            "fontSize": "70",
+            "height": "1450",
+            "width": "1950" 
+        },
+        "rounded": {
+            "elementType": "shape",
+            "shapeType": "rounded rectangle",
+            "width1": "280",
+            "height1": "700",
+            "width2": "2300",
+            "height2": "3000"
+        },
+        "rectangle": {
+           "elementType": "shape",
+            "shapeType": "rectangle",
+            "width1": "550",
+            "height1": "750",
+            "width2": "1950",
+            "height2": "1350" 
+        },
+        "python": {
+            "elementType": "image",
+            "file": "/Users/isabellaking/CS Coursework/CS420/Design/Images/FizzBuzzImage/python.webp",
+            "side1": "600",
+            "side2": "600",
+            "width": "1800",
+            "height": "90"
+        },
+        "code": {
+            "elementType": "image",
+            "file": "/Users/isabellaking/CS Coursework/CS420/Design/Images/FizzBuzzImage/Code.png",
+            "side1": "1300",
+            "side2": "500",
+            "width": "600",
+            "height": "800"
+        }
+    },
+    "layers": {
+        "layer1": ["1", "title", "python"],
+        "layer2": ["2", "rounded"],
+        "layer3": ["3", "rectangle"],
+        "layer4": ["4", "column1", "column2", "column3", "column4", "column5", "code"]
+    },
+    "scheme": {
+        "background": "#FFFFFF",
+        "darkGreen": {
+            "hexCode": "#1a380a",
+            "items": ["title", "rounded"]
+        },
+        "lightGreen": {
+            "hexCode": "#59ff00",
+            "items": ["column1", "column2", "column3", "column4", "column5"]
+        },
+        "white": {
+            "hexCode": "#FFFFFF",
+            "items": ["rectangle"]
+        }
+    }
+}
+
+poster.peek()
+
+endDesign

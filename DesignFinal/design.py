@@ -3,7 +3,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 design_mm = metamodel_from_file('/Users/isabellaking/CS Coursework/CS420/Design/DesignFinal/design.tx')
 
-design_model = design_mm.model_from_file('/Users/isabellaking/CS Coursework/CS420/Design/DesignFinal/Sample Programs/BusinessCard.dx')
+design_model = design_mm.model_from_file('/Users/isabellaking/CS Coursework/CS420/Design/DesignFinal/Sample Programs/Colors.dx')
 
 
 class Design:
