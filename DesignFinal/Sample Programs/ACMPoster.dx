@@ -1,0 +1,200 @@
+startDesign
+
+template poster = {
+    "header": {
+        "designName": "STEMSocialPoster",
+        "designType": "letter paper"
+    },
+    "elements": {
+        "stem": {
+            "elementType": "text",
+            "text": "STEM",
+            "fontFile": "/Users/isabellaking/CS Coursework/CS420/Design/Fonts/arial/ARIAL.TTF",
+            "fontSize": "500",
+            "height": "100",
+            "width": "600"
+        },
+        "social": {
+            "elementType": "text",
+            "text": "Social",
+            "fontFile": "/Users/isabellaking/CS Coursework/CS420/Design/Fonts/arial/ARIAL.TTF",
+            "fontSize": "500",
+            "height": "500",
+            "width": "600"
+        },
+        "timePart1": {
+            "elementType": "text",
+            "text": "Wednesday, April 30th",
+            "fontFile": "/Users/isabellaking/CS Coursework/CS420/Design/Fonts/arial/ARIAL.TTF",
+            "fontSize": "120",
+            "height": "2300",
+            "width": "600"
+        },
+        "timePart2": {
+            "elementType": "text",
+            "text": "@ GMCS 405 from 4pm - 6pm",
+            "fontFile": "/Users/isabellaking/CS Coursework/CS420/Design/Fonts/arial/ARIAL.TTF",
+            "fontSize": "120",
+            "height": "2425",
+            "width": "500" 
+        },
+        "desc": {
+            "elementType": "text",
+            "text": "Join us for a night of exciting networking
+opportunities and delicious refreshments!",
+            "fontFile": "/Users/isabellaking/CS Coursework/CS420/Design/Fonts/arial/ARIALBI.TTF",
+            "fontSize": "100",
+            "height": "2700",
+            "width": "300"  
+        },
+        "acm": {
+            "elementType": "text",
+            "text": "Association for
+Computing Machinery",
+            "fontFile": "/Users/isabellaking/CS Coursework/CS420/Design/Fonts/arial/ARIAL.TTF",
+            "fontSize": "60",
+            "height": "3115",
+            "width": "300" 
+        },
+        "rounded": {
+            "elementType": "shape",
+            "shapeType": "rounded rectangle",
+            "width1": "380",
+            "height1": "2260",
+            "width2": "2200",
+            "height2": "2600"
+        },
+        "rec1": {
+            "elementType": "shape",
+            "shapeType": "rectangle",
+            "width1": "0",
+            "height1": "3000",
+            "width2": "2550",
+            "height2": "3300"
+        },
+        "rec2": {
+            "elementType": "shape",
+            "shapeType": "rectangle",
+            "width1": "0",
+            "height1": "3050",
+            "width2": "2550",
+            "height2": "3300"
+        },
+        "computer": {
+            "elementType": "image",
+            "file": "/Users/isabellaking/CS Coursework/CS420/Design/Images/ACMPosterImages/computer.jpg",
+            "side1": "300",
+            "side2": "300",
+            "width": "250",
+            "height": "100"
+        },
+        "calculator": {
+            "elementType": "image",
+            "file": "/Users/isabellaking/CS Coursework/CS420/Design/Images/ACMPosterImages/calculator.jpg",
+            "side1": "300",
+            "side2": "300",
+            "width": "100",
+            "height": "500"
+        },
+        "data": {
+            "elementType": "image",
+            "file": "/Users/isabellaking/CS Coursework/CS420/Design/Images/ACMPosterImages/data.jpg",
+            "side1": "300",
+            "side2": "300",
+            "width": "2100",
+            "height": "100"
+        },
+        "pi": {
+            "elementType": "image",
+            "file": "/Users/isabellaking/CS Coursework/CS420/Design/Images/ACMPosterImages/pi.jpg",
+            "side1": "300",
+            "side2": "300",
+            "width": "2200",
+            "height": "500"
+        },
+        "chips": {
+            "elementType": "image",
+            "file": "/Users/isabellaking/CS Coursework/CS420/Design/Images/ACMPosterImages/chips.jpg",
+            "side1": "550",
+            "side2": "550",
+            "width": "50",
+            "height": "1100"
+        },
+        "pepsi": {
+            "elementType": "image",
+            "file": "/Users/isabellaking/CS Coursework/CS420/Design/Images/ACMPosterImages/pepsi.jpg",
+            "side1": "550",
+            "side2": "550",
+            "width": "2000",
+            "height": "1000"
+        },
+        "pizza": {
+            "elementType": "image",
+            "file": "/Users/isabellaking/CS Coursework/CS420/Design/Images/ACMPosterImages/pizza.jpg",
+            "side1": "550",
+            "side2": "550",
+            "width": "1900",
+            "height": "1600"
+        },
+        "cookie": {
+            "elementType": "image",
+            "file": "/Users/isabellaking/CS Coursework/CS420/Design/Images/ACMPosterImages/cookie.jpg",
+            "side1": "550",
+            "side2": "550",
+            "width": "0",
+            "height": "1700"
+        },
+        "ACMLogo": {
+            "elementType": "image",
+            "file": "/Users/isabellaking/CS Coursework/CS420/Design/Images/ACMPosterImages/ACM.jpg",
+            "side1": "200",
+            "side2": "200",
+            "width": "50",
+            "height": "3075"
+        },
+        "SDSULogo": {
+            "elementType": "image",
+            "file": "/Users/isabellaking/CS Coursework/CS420/Design/Images/ACMPosterImages/SDSU.jpg",
+            "side1": "270",
+            "side2": "270",
+            "width": "2200",
+            "height": "3050"
+        },
+        "mainGraphic": {
+            "elementType": "image",
+            "file": "/Users/isabellaking/CS Coursework/CS420/Design/Images/ACMPosterImages/MainGraphic.jpg",
+            "side1": "1200",
+            "side2": "1200",
+            "width": "700",
+            "height": "1000"
+        }
+    },
+    "layers": {
+        "layer1": ["1", "stem", "social", "computer", "calculator", "data", "pi", "pizza", "pepsi", "cookie", "chips", "mainGraphic", "rounded", "rec1", "desc"],
+        "layer2": ["2", "timePart1", "timePart2", "rec2"],
+        "layer3": ["3", "ACMLogo", "acm", "SDSULogo"]
+    },
+    "scheme": {
+        "background": "#e7f6ff",
+        "white": {
+            "hexCode": "#FFFFFF",
+            "items": ["timePart1", "timePart2", "acm"]
+        },
+        "red": {
+            "hexCode": "#a61d2e",
+            "items": ["stem", "desc"]
+        },
+        "darkBlue": {
+            "hexCode": "#0d3a76",
+            "items": ["rounded", "rec2", "social"]
+        },
+        "mediumBlue": {
+            "hexCode": "#42a5f5",
+            "items": ["rec1"]
+        }
+    }
+}
+
+poster.peek()
+
+endDesign

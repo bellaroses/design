@@ -1,0 +1,112 @@
+startDesign
+
+template poster = {
+    "header": {
+        "designName": "Email Signature",
+        "designType": "email signature"
+    },
+    "elements": {
+        "name": {
+            "elementType": "text",
+            "text": "Isabella King",
+            "fontFile": "/Users/isabellaking/CS Coursework/CS420/Design/Fonts/Open_Sans/static/OpenSans-Regular.ttf",
+            "fontSize": "115",
+            "height": "50",
+            "width": "325"
+        },
+        "jobTitle": {
+            "elementType": "text",
+            "text": "Senior Graphic Designer",
+            "fontFile": "/Users/isabellaking/CS Coursework/CS420/Design/Fonts/Open_Sans/static/OpenSans-Regular.ttf",
+            "fontSize": "50",
+            "height": "200",
+            "width": "330"
+        },
+        "phoneNumber": {
+            "elementType": "text",
+            "text": "(619) 837-2293",
+            "fontFile": "/Users/isabellaking/CS Coursework/CS420/Design/Fonts/Open_Sans/static/OpenSans-Regular.ttf",
+            "fontSize": "25",
+            "height": "305",
+            "width": "400"
+        },
+        "email": {
+            "elementType": "text",
+            "text": "iking@business.com",
+            "fontFile": "/Users/isabellaking/CS Coursework/CS420/Design/Fonts/Open_Sans/static/OpenSans-Regular.ttf",
+            "fontSize": "25",
+            "height": "395",
+            "width": "400" 
+        },
+        "website": {
+            "elementType": "text",
+            "text": "business.com",
+            "fontFile": "/Users/isabellaking/CS Coursework/CS420/Design/Fonts/Open_Sans/static/OpenSans-Regular.ttf",
+            "fontSize": "25",
+            "height": "485",
+            "width": "400"  
+        },
+        "rectangle": {
+            "elementType": "shape",
+            "shapeType": "rectangle",
+            "width1": "275",
+            "height1": "50",
+            "width2": "300",
+            "height2": "550"
+        },
+        "iconEmail": {
+            "elementType": "image",
+            "file": "/Users/isabellaking/CS Coursework/CS420/Design/Images/BusinessCardImages/email.jpg",
+            "side1": "50",
+            "side2": "50",
+            "width": "325",
+            "height": "300"
+        },
+        "iconInternet": {
+            "elementType": "image",
+            "file": "/Users/isabellaking/CS Coursework/CS420/Design/Images/BusinessCardImages/internet.jpg",
+            "side1": "50",
+            "side2": "50",
+            "width": "325",
+            "height": "390"
+        },
+        "iconPhone": {
+            "elementType": "image",
+            "file": "/Users/isabellaking/CS Coursework/CS420/Design/Images/BusinessCardImages/phone.jpg",
+            "side1": "50",
+            "side2": "50",
+            "width": "325",
+            "height": "480"
+        },
+        "mainGraphic": {
+            "elementType": "image",
+            "file": "/Users/isabellaking/CS Coursework/CS420/Design/Images/BusinessCardImages/mainGraphic.jpg",
+            "side1": "200",
+            "side2": "200",
+            "width": "25",
+            "height": "25"
+        }
+    },
+    "layers": {
+        "layer1": ["1", "name", "jobTitle", "email", "phoneNumber", "website", "rectangle", "mainGraphic", "iconEmail", "iconInternet", "iconPhone"]
+    },
+    "scheme": {
+        "background": "#49326b",
+        "white": {
+            "hexCode": "#FFFFFF",
+            "items": ["name", "phoneNumber", "website", "email"]
+        },
+        "pink": {
+            "hexCode": "#f8abeb",
+            "items": ["jobTitle"]
+        },
+        "darkPink": {
+            "hexCode": "#a359a0",
+            "items": ["rectangle"]
+        }
+    }
+}
+
+poster.peek()
+
+endDesign

@@ -1,0 +1,230 @@
+{
+    "header": {
+        "designName": "STEMSocialPoster",
+        "designType": "letter paper"
+    },
+    "elements": {
+        "stem": {
+            "elementType": "text",
+            "text": "STEM",
+            "fontFile": "/Users/isabellaking/CS Coursework/CS420/Design/Fonts/arial/ARIAL.TTF",
+            "fontSize": "500",
+            "bold?": "False",
+            "italicized?": "False",
+            "underlined?": "False",
+            "height": "600",
+            "width": "100",
+            "unitOfMeasurement": "pxl"   
+        },
+        "social": {
+            "elementType": "text",
+            "text": "Social",
+            "fontFile": "/Users/isabellaking/CS Coursework/CS420/Design/Fonts/arial/ARIAL.TTF",
+            "fontSize": "500",
+            "bold?": "False",
+            "italicized?": "False",
+            "underlined?": "False",
+            "height": "400",
+            "width": "500",
+            "unitOfMeasurement": "pxl"   
+        },
+        "timePart1": {
+            "elementType": "text",
+            "text": "Wednesday, April 30th",
+            "fontFile": "/Users/isabellaking/CS Coursework/CS420/Design/Fonts/arial/ARIAL.TTF",
+            "fontSize": "120",
+            "bold?": "False",
+            "italicized?": "False",
+            "underlined?": "False",
+            "height": "600",
+            "width": "2300",
+            "unitOfMeasurement": "pxl"   
+        },
+        "timePart2": {
+            "elementType": "text",
+            "text": "@ GMCS 405 from 4pm - 6pm",
+            "fontFile": "/Users/isabellaking/CS Coursework/CS420/Design/Fonts/arial/ARIAL.TTF",
+            "fontSize": "120",
+            "bold?": "False",
+            "italicized?": "False",
+            "underlined?": "False",
+            "height": "500",
+            "width": "2425",
+            "unitOfMeasurement": "pxl"   
+        },
+        "desc": {
+            "elementType": "text",
+            "text": "Join us for a night of exciting networking \nopportunities and delicious refreshments!",
+            "fontFile": "/Users/isabellaking/CS Coursework/CS420/Design/Fonts/arial/ARIALBI.TTF",
+            "fontSize": "100",
+            "bold?": "False",
+            "italicized?": "False",
+            "underlined?": "False",
+            "height": "300",
+            "width": "2700",
+            "unitOfMeasurement": "pxl"   
+        },
+        "acm": {
+            "elementType": "text",
+            "text": "Association for \nComputing Machinery",
+            "fontFile": "/Users/isabellaking/CS Coursework/CS420/Design/Fonts/arial/ARIAL.TTF",
+            "fontSize": "60",
+            "bold?": "False",
+            "italicized?": "False",
+            "underlined?": "False",
+            "height": "300",
+            "width": "3115",
+            "unitOfMeasurement": "pxl"   
+        },
+        "rounded": {
+            "elementType": "shape",
+            "shapeType": "rounded rectangle",
+            "width1": "380",
+            "height1": "2260",
+            "width2": "2200",
+            "height2": "2600",
+            "unitOfMeasurement": "pxl"
+        },
+        "rec1": {
+            "elementType": "shape",
+            "shapeType": "rectangle",
+            "width1": "0",
+            "height1": "3000",
+            "width2": "2550",
+            "height2": "3300",
+            "unitOfMeasurement": "pxl"
+        },
+        "rec2": {
+            "elementType": "shape",
+            "shapeType": "rectangle",
+            "width1": "0",
+            "height1": "3050",
+            "width2": "2550",
+            "height2": "3300",
+            "unitOfMeasurement": "pxl"
+        },
+        "computer": {
+            "elementType": "image",
+            "file": "/Users/isabellaking/CS Coursework/CS420/Design/Images/computer.jpg",
+            "side1": "300",
+            "side2": "300",
+            "height": "250",
+            "width": "100",
+            "unitOfMeasurement": "pxl"
+        },
+        "calculator": {
+            "elementType": "image",
+            "file": "/Users/isabellaking/CS Coursework/CS420/Design/Images/calculator.jpg",
+            "side1": "300",
+            "side2": "300",
+            "height": "100",
+            "width": "500",
+            "unitOfMeasurement": "pxl"
+        },
+        "data": {
+            "elementType": "image",
+            "file": "/Users/isabellaking/CS Coursework/CS420/Design/Images/data.jpg",
+            "side1": "300",
+            "side2": "300",
+            "height": "2100",
+            "width": "100",
+            "unitOfMeasurement": "pxl"
+        },
+        "pi": {
+            "elementType": "image",
+            "file": "/Users/isabellaking/CS Coursework/CS420/Design/Images/pi.jpg",
+            "side1": "300",
+            "side2": "300",
+            "height": "2200",
+            "width": "500",
+            "unitOfMeasurement": "pxl"
+        },
+        "chips": {
+            "elementType": "image",
+            "file": "/Users/isabellaking/CS Coursework/CS420/Design/Images/chips.jpg",
+            "side1": "550",
+            "side2": "550",
+            "height": "50",
+            "width": "1100",
+            "unitOfMeasurement": "pxl"
+        },
+        "pepsi": {
+            "elementType": "image",
+            "file": "/Users/isabellaking/CS Coursework/CS420/Design/Images/pepsi.jpg",
+            "side1": "550",
+            "side2": "550",
+            "height": "2000",
+            "width": "1000",
+            "unitOfMeasurement": "pxl"
+        },
+        "pizza": {
+            "elementType": "image",
+            "file": "/Users/isabellaking/CS Coursework/CS420/Design/Images/pizza.jpg",
+            "side1": "550",
+            "side2": "550",
+            "height": "1900",
+            "width": "1600",
+            "unitOfMeasurement": "pxl"
+        },
+        "cookie": {
+            "elementType": "image",
+            "file": "/Users/isabellaking/CS Coursework/CS420/Design/Images/cookie.jpg",
+            "side1": "550",
+            "side2": "550",
+            "height": "0",
+            "width": "1700",
+            "unitOfMeasurement": "pxl"
+        },
+        "ACMLogo": {
+            "elementType": "image",
+            "file": "/Users/isabellaking/CS Coursework/CS420/Design/Images/ACM.jpg",
+            "side1": "200",
+            "side2": "200",
+            "height": "50",
+            "width": "3075",
+            "unitOfMeasurement": "pxl"
+        },
+        "SDSULogo": {
+            "elementType": "image",
+            "file": "/Users/isabellaking/CS Coursework/CS420/Design/Images/SDSU.jpg",
+            "side1": "270",
+            "side2": "270",
+            "height": "2200",
+            "width": "3050",
+            "unitOfMeasurement": "pxl"
+        },
+        "mainGraphic": {
+            "elementType": "image",
+            "file": "/Users/isabellaking/CS Coursework/CS420/Design/Images/MainGraphic.jpg",
+            "side1": "1200",
+            "side2": "1200",
+            "height": "700",
+            "width": "1000",
+            "unitOfMeasurement": "pxl"
+        }
+    },
+    "layers": {
+        "layer1": ["1", "stem", "social", "computer", "calculator", "data", "pi", "pizza", "pepsi", "cookie", "chips", "mainGraphic", "rounded", "rec1", "desc"],
+        "layer2": ["2", "timePart1", "timePart2", "rec2"],
+        "layer3": ["3", "ACMLogo", "acm", "SDSULogo"]
+    },
+    "scheme": {
+        "background": "#e7f6ff",
+        "white": {
+            "hexCode": "#FFFFFF",
+            "items": ["time", "acm"]
+        },
+        "red": {
+            "hexCode": "#a61d2e",
+            "items": ["stem", "desc"]
+        },
+        "darkBlue": {
+            "hexCode": "#0d3a76",
+            "items": ["rounded", "rec2", "social"]
+        },
+        "mediumBlue": {
+            "hexCode": "#42a5f5",
+            "items": ["rec1"]
+        }
+    }
+}

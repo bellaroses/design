@@ -1,0 +1,106 @@
+{
+    "header": {
+        "designName": "BusinessCard",
+        "designType": "business card"
+    },
+    "elements": {
+        "name": {
+            "elementType": "text",
+            "text": "name",
+            "fontFile": "/Users/isabellaking/CS Coursework/CS420/Design/Fonts/Open_Sans/static/OpenSans-Regular.ttf",
+            "fontSize": "300",
+            "height": "100",
+            "width": "600"
+        },
+        "jobTitle": {
+            "elementType": "text",
+            "text": "Senior Graphic Designer",
+            "fontFile": "/Users/isabellaking/CS Coursework/CS420/Design/Fonts/Open_Sans/static/OpenSans-Regular.ttf",
+            "fontSize": "500",
+            "height": "500",
+            "width": "600"
+        },
+        "phoneNumber": {
+            "elementType": "text",
+            "text": "(619) 837-2293",
+            "fontFile": "/Users/isabellaking/CS Coursework/CS420/Design/Fonts/Open_Sans/static/OpenSans-Regular.ttf",
+            "fontSize": "120",
+            "height": "2300",
+            "width": "600"
+        },
+        "email": {
+            "elementType": "text",
+            "text": "iking@business.com",
+            "fontFile": "/Users/isabellaking/CS Coursework/CS420/Design/Fonts/Open_Sans/static/OpenSans-Regular.ttf",
+            "fontSize": "120",
+            "height": "2425",
+            "width": "500" 
+        },
+        "website": {
+            "elementType": "text",
+            "text": "business.com",
+            "fontFile": "/Users/isabellaking/CS Coursework/CS420/Design/Fonts/Open_Sans/static/OpenSans-Regular.ttf",
+            "fontSize": "100",
+            "height": "2700",
+            "width": "300"  
+        },
+        "rectangle": {
+            "elementType": "shape",
+            "shapeType": "rectangle",
+            "width1": "0",
+            "height1": "3000",
+            "width2": "2550",
+            "height2": "3300"
+        },
+        "iconEmail": {
+            "elementType": "image",
+            "file": "/Users/isabellaking/CS Coursework/CS420/Design/Images/computer.jpg",
+            "side1": "300",
+            "side2": "300",
+            "height": "250",
+            "width": "100"
+        },
+        "iconInternet": {
+            "elementType": "image",
+            "file": "/Users/isabellaking/CS Coursework/CS420/Design/Images/calculator.jpg",
+            "side1": "300",
+            "side2": "300",
+            "height": "100",
+            "width": "500"
+        },
+        "iconPhone": {
+            "elementType": "image",
+            "file": "/Users/isabellaking/CS Coursework/CS420/Design/Images/data.jpg",
+            "side1": "300",
+            "side2": "300",
+            "height": "2100",
+            "width": "100"
+        },
+        "mainGraphic": {
+            "elementType": "image",
+            "file": "/Users/isabellaking/CS Coursework/CS420/Design/Images/pi.jpg",
+            "side1": "300",
+            "side2": "300",
+            "height": "2200",
+            "width": "500"
+        }
+    },
+    "layers": {
+        "layer1": ["1", "name", "jobTitle", "email", "phoneNumber", "website", "rectangle", "mainGraphic", "iconEmail", "iconInternet", "iconPhone"]
+    },
+    "scheme": {
+        "background": "#49326b",
+        "white": {
+            "hexCode": "#FFFFFF",
+            "items": ["name", "phoneNumber", "website", "email"]
+        },
+        "pink": {
+            "hexCode": "#f8abeb",
+            "items": ["jobTitle"]
+        },
+        "darkPink": {
+            "hexCode": "#a359a0",
+            "items": ["rectangle"]
+        }
+    }
+}

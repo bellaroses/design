@@ -1,0 +1,109 @@
+DESIGN:
+    'startDesign'
+    
+    'template' designName=ID '=' template=TEMPLATE
+    commands*=COMMAND
+
+    'endDesign'
+;
+
+TEMPLATE:
+    '{'
+        '"header"' ':' '{'
+            '"designName"' ':' designName=STRING ','
+            '"designType"' ':' '"' designType=DESIGNTYPE '"'
+        '}' ','
+        '"elements"' ':' '{'
+            elements+=ELEMENT[',']
+        '}' ','
+        '"layers"' ':' '{'
+            layers+=LAYER[',']
+        '}' ','
+        '"scheme"' ':' '{'
+            '"background"' ':' background=STRING ','
+            groups*=GROUPS[',']
+        '}'
+    '}'
+;
+
+GROUPS:
+    '"' groupLabel=ID '"' ':' '{'
+            '"hexCode"' ':'  hexCode=STRING  ','
+            '"items"' ':' '[' itemsInGroup+=STRING[','] ']'
+    '}'
+;
+
+
+ELEMENT:
+    TEXT | IMAGE | SHAPE
+;
+
+LAYER:
+    '"' layerLabel=ID '"' ':' '[' '"' layerNumber=INT '"'  ',' itemsInLayer+=STRING[','] ']'
+;
+
+TEXT:
+    '"' label=ID '"' ':' '{'
+        '"elementType"' ':' '"' type=ElementType '"' ','
+        '"text"' ':' text=STRING ','
+        '"fontFile"' ':'  font=STRING ','
+        '"fontSize"' ':' '"' size=INT '"' ','
+        '"height"' ':' '"' height=INT '"'','
+        '"width"' ':' '"' width=INT '"'
+    '}'
+;
+
+IMAGE:
+    '"' label=ID '"' ':' '{'
+        '"elementType"' ':' '"' type=ElementType '"' ','
+        '"file"' ':' file=STRING  ','
+        '"side1"' ':' '"' side1=INT '"' ','
+        '"side2"' ':' '"' side2=INT '"' ','
+        '"width"' ':' '"' height=INT '"' ','
+        '"height"' ':' '"' width=INT'"'
+    '}'
+;
+
+UNIT:
+    'pxl' | 'inches' | 'cm'
+;
+
+SHAPE:
+    '"' label=ID '"' ':' '{'
+        '"elementType"' ':' '"' type=ElementType '"' ','
+        '"shapeType"' ':' '"' type=SHAPETYPE '"' ','
+        '"width1"' ':' '"' width1=INT '"' ','
+        '"height1"' ':' '"' height1=INT '"' ','
+        '"width2"' ':' '"' width2=INT '"' ','
+        '"height2"' ':' '"' height2=INT '"'
+    '}'
+;
+
+ElementType:
+    'text' | 'image' | 'shape'
+;
+
+SHAPETYPE:
+    'rectangle' | 'rounded rectangle'
+;
+
+
+DESIGNTYPE:
+    'instagram post' | 'letter paper' | 'business card' | 'email signature'
+;
+
+COMMAND:
+    EXPORT | PEEK
+;
+
+PEEK:
+    designName=ID '.peek()'
+;
+
+EXPORT:
+    designName=ID '.toFile(' file=FILETYPE ')'
+;
+
+FILETYPE:
+    'png' | 'pdf' | 'jpg'
+;

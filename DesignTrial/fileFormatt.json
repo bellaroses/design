@@ -1,0 +1,44 @@
+{
+    "header" : {
+        "designName": "string",
+        "designType": "string",
+        "designTheme": ["list of strings"]
+    },
+    "elements" : {
+        "text": {
+            "element": {
+                "elementType": "text",
+                "words": "hsdjfhsjdfhjsd",
+                "fontName": "font",
+                "bold?": "yes/no",
+                "italicized?": "yes/no",
+                "underlined?": "yes/no",
+                "rotateDegree": "0"
+            },
+            "position": ["bottomRightCornerHeight", "bottomRightCornerWidth", "unitOfMeasurement"]
+        },
+        "image": {
+            "element": ["image", "fileName", "width", "height", "unitOfMeasurement", "rotateDegree"],
+            "position": ["bottomRightCornerHeight", "bottomRightCornerWidth", "unitOfMeasurement"]
+        },
+        "shape": {
+            "element": ["shape", "shapeType", "width", "height", "unitOfMeasurement", "rotateDegree"],
+            "position": ["bottomRightCornerHeight", "bottomRightCornerWidth", "unitOfMeasurement"]
+        }
+    },
+    "layer": {
+        "layer1": ["text", "image"],
+        "layer2": ["shape"]
+    },
+    "scheme":{
+        "background": "hexCode",
+        "groupLabel": {
+            "hexCode": "hexCode",
+            "elements": ["element1", "element2", "etc"]
+        },
+        "groupLabel2": {
+            "hexCode": "hexCode",
+            "elements": ["element1", "element2", "etc"]
+        }
+    }
+}

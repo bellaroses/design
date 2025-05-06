@@ -1,0 +1,39 @@
+startDesign
+
+template poster = {
+    "header": {
+        "designName": "ACM Poster",
+        "designType": "letter paper"
+    },
+    "elements": {
+        "message": {
+            "elementType": "text",
+            "text": "Hello, World!",
+            "fontName": "",
+            "fontSize": "12",
+            "bold?": "True",
+            "italicized?": "False",
+            "underlined?": "True",
+            "rotateDegree": "0"
+            "height": "8",
+            "width": "2",
+            "unitOfMeasurement": "inch"   
+        }
+    },
+    "layers": {
+        "layer1": ["1", "message", "image", ],
+        "layer3": ["3", "message"],
+        "layer2": ["2", "message"]
+    },
+    "scheme": {
+        "background": "#FFFFFF",
+        "text": {
+            "hexCode": "#000000",
+            "items": ["message"]
+        }
+    }
+}
+
+poster.toFile(pdf)
+
+endDesign

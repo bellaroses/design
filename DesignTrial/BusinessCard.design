@@ -1,0 +1,47 @@
+
+
+template businessCard = {
+    "header" : {
+        "designName": "Business Card",
+        "designType": "business card",
+        "designTheme": ["sleek", "minimalistic", "professional"],
+        "designSize": ["3.5", "2", "inches"]
+    },
+    "elements" : {
+        "name": ["text", "Canva Sans", "Isabella King"],
+        "job": ["text", "Canva Sans", "Senior Graphic Designer"],
+        "number": ["text", "Canva Sans", "(619) 837-2293"],
+        "email": ["text", "Canva Sans", "iking@business.com"],
+        "website": ["text", "Canva Sans", "business.com"],
+        "logo": ["image", "logo.png", "150", "150", "pxl"],
+        "rectangle": ["shape", "100", "100", "pxl"],
+        "phone": ["image", "phoneIcon.png", "30", "30", "pxl"],
+        "mail": ["image", "mailIcon.png", "30", "30", "pxl"],
+        "internet": ["image", "internetIcon.png", "30", "30", "pxl"]
+    },
+    "formatt" : {
+        "namePosition": ["name", "1.5", "1.5", "inches"],
+        "jobPosition": ["job", "1.5", "1", "inches"],
+        "numberPosition": ["number", "1.5", ".9", "inches"],
+        "emailPosition": ["email", "1.5", ".8", "inches"],
+        "websitePosition": ["website", "1.5", ".7", "inches"],
+        "logoPosition": ["logo", "top", "left"],
+        "rectanglePosition": ["rectangle", "1", "2", "inches"],
+        "phonePosition": ["phone", "1.3", ".9", "inches"],
+        "mailPosition": ["mail", "1.3", ".8", "inches"],
+        "internetPosition": ["internet", "1.3", ".7", "inches"],
+        "layer": {
+            "everything": [1, "name", "job", "number", "email", "website", "logo", "rectangle", "phone", "mail", "internet"]
+        }
+    },
+    "scheme":{
+        "background": "#49326b"
+        "important": ["#000000", "name", "number", "website", "email"],
+        "jobTitle" : ["#FF0000", "job"],
+        "rectangleColor": ["#0000FF", "rectangle"]
+    }
+}
+
+businessCard.scheme = suggest("color scheme", "I'm making a busniess card. Please suggest a good color scheme using purple.")
+
+businessCard.toFile("jpg")

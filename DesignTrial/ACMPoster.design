@@ -1,0 +1,21 @@
+import json
+
+template ACMPoster = json.load(InstragramPostTemplate.json)
+
+ACMPoster.header.designName = "ACM Meeting Weekly Post"
+ACMPoster.header.designTheme = ["informative", "blue", "fun"]
+ACMPoster.elements.title = "LinkedIn Workshop"
+ACMPoster.elements.time = "Wednesday (4/22) from 4pm - 5pm in GMCS 405"
+ACMPoster.elements.description = "Please join us for a presentation on improving your LinkedIn."
+ACMPoster.elements.logo = "/ACM/Graphics/acm.jpg"
+
+ACMPoster.scheme = suggest("color scheme", "I'm making a club weekly meeting post. Please suggest a good color scheme using blue")
+
+ACMPoster.description = suggest("wording", "I'm making a club weekly meeting post. Please suggest a catchy description for a 
+presenation on LinkedIn")
+
+ACMPoster.toFile("png")
+
+
+
+

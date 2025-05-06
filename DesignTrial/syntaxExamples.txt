@@ -1,0 +1,41 @@
+startDesign
+
+template poster = {
+    "header": {
+        "designName": "ACM Poster",
+        "designType": "flyer"
+    },
+    "elements": {
+        "message": {
+            "features": {
+                "elementType": "text",
+                "text": "Hello, World!",
+                "fontName": "Canva Sans",
+                "fontSize": "12",
+                "bold?": "yes",
+                "italicized?": "no",
+                "underlined?": "yes",
+                "rotateDegree": "0"
+            },
+            "position": {
+                "height": "8",
+                "width": "2",
+                "unitOfMeasurement": "inch"
+            }
+        }
+    },
+    "layers": {
+        "layer1": [1, "message"]
+    },
+    "scheme": {
+        "background": "#FFFFFF",
+        "text": {
+            "hexCode": "#000000",
+            "items": ["message"]
+        }
+    }
+}
+
+poster.toFile(png)
+
+endDesign

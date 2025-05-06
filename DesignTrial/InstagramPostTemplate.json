@@ -1,0 +1,34 @@
+{
+    "header" : {
+        "designName": "name",
+        "designType": "instragram post",
+        "designTheme": []
+    },
+    "elements" : {
+        "title": ["title"],
+        "time": ["text"],
+        "description": ["text"],
+        "logo": ["image", "150", "150", "pxl"],
+        "rectangle_1": ["shape", "100", "100", "pxl"],
+        "rectangle_2": ["shape", "100", "100", "pxl"]
+    },
+    "formatt" : {
+        "titlePosition": ["title", "top", "middle"],
+        "timePosition": ["time", "50", "100", "pxl"],
+        "descriptionPosition": ["description", "70", "70", "pxl"],
+        "logoPosition": ["logo", "middle", "middle"],
+        "rectangle1Position": ["rectangle_1", "bottom"],
+        "rectangle3Position": ["rectangle_2", "bottom"],
+        "layer": {
+            "text_logos": [1, "title", "time", "description", "logo"],
+            "element": [2, "rectangle_1"],
+            "element_2": [3, "rectangle_2"]
+        }
+    },
+    "scheme":{
+        "black": ["#000000", "title"],
+        "red" : ["#FF0000", "time, rectangle_1"],
+        "blue": ["#0000FF", "description", "rectangle_2"]
+    }
+}
+
