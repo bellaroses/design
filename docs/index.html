@@ -7,10 +7,47 @@
     <title>My Website</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <style>
+      body {
+        font-family:Arial, Helvetica, sans-serif;
+      }
+      h1 {
+        font-size: 4em;
+        color: rgb(105, 39, 50);
+      }
+
+      .column {
+        float: left;
+        width: 30%;
+        }
+        .row:after {
+        content: "";
+        display: table;
+        clear: both;
+        }
+    </style>
   </head>
   <body>
     <main>
-        <h1>Welcome to My Website</h1>  
+        <h1>Design</h1> 
+        <h2>Hello there</h2>
+        <p>Banana</p> 
+        <div class="row">
+          <div class="column">
+              <h2>Features</h2>
+          </div>
+          <div class="column">
+              <h2>Other Things</h2>
+              <ul>
+                <li>thing 1</li>
+                <li>thing 2</li>
+                <li>thing 3</li>
+              </ul>
+          </div>
+          <div class="column">
+            <h2>Other Things 2</h2>
+          </div>
+        </div>
     </main>
     <script src="index.js"></script>
   </body>
