@@ -10,15 +10,46 @@
     <style>
       body {
         font-family:Arial, Helvetica, sans-serif;
+        background-color: rgb(255, 240, 224);
       }
       h1 {
-        font-size: 4em;
-        color: rgb(105, 39, 50);
+        font-size: 7em;
+        color: #f54278;
+        text-align: center;
+      }
+      #message {
+        font-size: 2em;
+        text-align: center;
+        color: #a80737;
+      }
+      #desc {
+        text-align: center;
+        padding-left: 10%;
+        padding-right: 10%;
+      }
+      h2{
+        padding-top: 5%;
+        text-align: center;
+        color: #f54278;
+      }
+      #slides{
+        margin: 4px 400px;
+      }
+      #button {
+        border: none;
+        color: rgb(255, 187, 244);
+        padding: 15px 32px;
+        font-size: 16px;
+        margin: 4px 550px;
+        cursor: pointer;
+        background-color: rgb(114, 30, 30);
+        border-radius: 8px;
       }
 
       .column {
-        float: left;
+        float: inline-start;
         width: 30%;
+        padding-left: 30px;
         }
         .row:after {
         content: "";
@@ -30,24 +61,37 @@
   <body>
     <main>
         <h1>Design</h1> 
-        <h2>Hello there</h2>
-        <p>Banana</p> 
+        <h2 id = "message">A markup language used to create custom graphics.</h2>
+        <p id="desc">Design will be used to create custom graphics, including business cards, 
+          letters, email signatures, lists, posters, weekly calendars, and more. 
+          It was created to resemble a mix between LaTeX and Canva. To create something,
+          you can use one of the premade templates or opt to create your own template. 
+          Each template uses json syntax so you can easily save and share templates or 
+          elements with friends.</p> 
+        <a href = "https://github.com/bellaroses/design">
+          <button id = "button">More on GitHub</button>
+        </a>
+        <h2>Sample Designs</h2>
         <div class="row">
           <div class="column">
-              <h2>Features</h2>
+            <img class="images" src = "/Users/isabellaking/CS Coursework/CS420/Design/Images/ProgramOutput/ACMInstaPost.jpg" alt="Did not display image" width="300" height="300">
           </div>
           <div class="column">
-              <h2>Other Things</h2>
-              <ul>
-                <li>thing 1</li>
-                <li>thing 2</li>
-                <li>thing 3</li>
-              </ul>
+            <img src = "/Users/isabellaking/CS Coursework/CS420/Design/Images/ProgramOutput/STEMSocialPoster.jpg" alt="Did not display image" width="300" height="400">
           </div>
           <div class="column">
-            <h2>Other Things 2</h2>
+            <img src = "/Users/isabellaking/CS Coursework/CS420/Design/Images/ProgramOutput/BusinessCard.jpg" alt="Did not display image" width="400" height="250">
           </div>
         </div>
+        <h2 id="Features">･:*.ೃ࿔⋆❀° Features °❀⋆.ೃ࿔*:･</h2>
+          <ul style = "text-align: center; list-style-position: inside;">
+            <li>Create custom graphics with precision.</li>
+            <li>Create a variety of creations like a poster, letter, busniess card, instagram post, or email signature.</li>
+            <li>Share templates with friends as a json file.</li>
+          </ul>
+        <h2>Programming Examples</h2>
+        <iframe id = "slides" src="https://docs.google.com/presentation/d/e/2PACX-1vQ-KVyJVL48ljSjir4e1_9N5ExQCMaYuDs6CMw85Eu4rKqFor12qlfDj0kpkHPJQuP8ubOmhfEr7eNy/pubembed?start=false&loop=false&delayms=3000" 
+        frameborder="0" width="560" height="369" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
     </main>
     <script src="index.js"></script>
   </body>

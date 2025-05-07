@@ -137,6 +137,6 @@ Computing Machinery",
     }
 }
 
-poster.toFile(jpg)
+poster.peek()
 
 endDesign

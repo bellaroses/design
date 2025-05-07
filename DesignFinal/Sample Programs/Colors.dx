@@ -2,7 +2,7 @@ startDesign
 
 template poster = {
     "header": {
-        "designName": "ACMInstaPost",
+        "designName": "Colors",
         "designType": "instagram post"
     },
     "elements": {

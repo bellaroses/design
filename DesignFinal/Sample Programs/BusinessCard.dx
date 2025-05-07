@@ -107,6 +107,6 @@ template poster = {
     }
 }
 
-poster.peek()
+poster.toFile(jpg)
 
 endDesign
