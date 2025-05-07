@@ -1,4 +1,4 @@
-#DESIGN
+**DESIGN**
 
 **A markup language used to create custom graphics.**
 
@@ -19,4 +19,4 @@ Design will be used to create custom graphics, including business cards, letters
 ![InstaPost](docs/Images/ACMInstaPost.jpg)
 ![BusinessCard](docs/Images/BusinessCard.jpg)
 
-**[Slides](https://docs.google.com/presentation/d/e/2PACX-1vQ-KVyJVL48ljSjir4e1_9N5ExQCMaYuDs6CMw85Eu4rKqFor12qlfDj0kpkHPJQuP8ubOmhfEr7eNy/pub?start=false&loop=false&delayms=3000)**
+**[VIEW INFORMATIVE SLIDES HERE](https://docs.google.com/presentation/d/e/2PACX-1vQ-KVyJVL48ljSjir4e1_9N5ExQCMaYuDs6CMw85Eu4rKqFor12qlfDj0kpkHPJQuP8ubOmhfEr7eNy/pub?start=false&loop=false&delayms=3000)**
